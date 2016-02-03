@@ -4,10 +4,11 @@
   "description": "mock",
   "main": "index.js",
   "scripts": {
-  	"start": "npm run mock",
-  	"mock":"npm run mockkoa",
-    "mockkoa": "node ./src/koa/index",
-    "mockfms": "node ./src/fms/index"
+    "start": "npm run mock",
+    "mock": "npm run koa",
+    "koa": "node ./src/koa/index",
+    "hapi": "node ./src/hapi/index",
+    "fms": "node ./src/fms/index"
   },
   "author": "cqj",
   "license": "MIT",
@@ -15,6 +16,7 @@
     "faker": "^3.0.1",
     "fms": "0.0.29",
     "glob": "^6.0.4",
+    "hapi": "^13.0.0",
     "koa": "^1.1.2"
   }
 }
