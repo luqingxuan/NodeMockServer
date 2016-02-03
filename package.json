@@ -1,0 +1,20 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "mock",
+  "main": "index.js",
+  "scripts": {
+  	"start": "npm run mock",
+  	"mock":"npm run mockkoa",
+    "mockkoa": "node ./src/koa/index",
+    "mockfms": "node ./src/fms/index"
+  },
+  "author": "cqj",
+  "license": "MIT",
+  "devDependencies": {
+    "faker": "^3.0.1",
+    "fms": "0.0.29",
+    "glob": "^6.0.4",
+    "koa": "^1.1.2"
+  }
+}
